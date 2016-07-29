@@ -1,0 +1,68 @@
+html{
+	width: 100%;
+	background-color:rgb(56,56,56);
+}
+
+#gameArea{
+	width:100%;
+	display:inline-block;
+	margin-top:10%;
+}
+
+#infoArea{
+	display:inline-block;
+	margin-top:10%;
+	width:100%;
+}
+
+h1{
+	text-align:center;
+}
+
+ body{
+  
+  color: white;
+  margin: 15px auto;
+  
+  max-width: 400px;
+  min-width: 400px;
+  }
+
+#circle1{
+border-radius: 50%;
+background-color: rgba(255,0,0,0.3);
+width: 100px;
+height: 100px;
+float:left;
+display:inline-block;
+
+}
+
+#circle2{
+border-radius: 50%;
+background-color: rgba(255,255,0,0.3);
+width: 100px;
+height: 100px;
+float:left;
+}
+
+#circle3{
+border-radius: 50%;
+background-color: rgba(0,0,255,0.3);
+width: 100px;
+height: 100px;
+float:left;
+}
+
+#circle4{
+border-radius: 50%;
+background-color: rgb(71,133,102);
+width: 100px;
+height: 100px;
+float:left;
+}
+
+#currentNumber{
+	float: left;
+	
+}
